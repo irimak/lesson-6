@@ -38,6 +38,8 @@ body {
 }
 
 .wrapper {
+  min-height: 100%;
+  overflow: hidden;
   padding: 140px 207px;
 }
 .content {
@@ -98,12 +100,7 @@ body {
   line-height: 1.27;
   color: #b8b8b8;
 }
+
 .image {
-  width: 468px;
-  height: 674px;
-  background: url("../img/fon.png") left bottom no-repeat;
-  background-size: 468px 560px;
-}
-.photo {
-  padding-left: 46px;
+  max-width: 468px;
 }
