@@ -40,7 +40,6 @@ body {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
-  padding: 140px 207px;
 }
 .content {
   width: 1025px;
